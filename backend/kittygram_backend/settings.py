@@ -11,7 +11,7 @@ SECRET_KEY = os.getenv('TOKEN', 'django-insecure')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://kvasty.hopto.org']
+ALLOWED_HOSTS = ['localhost', 'https://kvasty.hopto.org']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
