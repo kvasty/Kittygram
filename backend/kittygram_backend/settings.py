@@ -7,11 +7,11 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv('TOKEN','')
+SECRET_KEY = os.getenv('TOKEN', '')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['62.84.121.16','127.0.0.1','https://kvasty.hopto.org', 'localhost']
+ALLOWED_HOSTS = ['62.84.121.16', '127.0.0.1', 'https://kvasty.hopto.org', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -110,7 +110,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated', 
+        'rest_framework.permissions.IsAuthenticated',
     ],
 
     'DEFAULT_AUTHENTICATION_CLASSES': [
