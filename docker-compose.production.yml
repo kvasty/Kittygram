@@ -21,7 +21,7 @@ services:
       - db
     volumes:
       - static:/backend_static
-      - media:/media
+      - media:/app/media/cats/images/
   frontend:
     container_name: frontend
     image: nasty105/kittygram_frontend
@@ -35,6 +35,6 @@ services:
     env_file: .env
     volumes:
       - static:/static
-      - media:/media
+      - media:/media/cats/images
     ports:
       - 9000:80
