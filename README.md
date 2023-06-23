@@ -24,3 +24,15 @@ dockerhub_username: ваш_логин_на_докерхабе
 - Проект Kittygram доступен по доменному имени, указанному в `tests.yml`.
 - Пуш в ветку main запускает тестирование и деплой Kittygram, а после успешного деплоя вам приходит сообщение в телеграм.
 - В корне проекта есть файл `kittygram_workflow.yml`.
+
+## Стэк технологий:
+- Python 3.9
+- Django 3.2.3
+- Django REST framework 3.12.4
+- Djoser 2.1.0
+- Pytest==6.2.4
+- PyYAML==6.0
+- Gunicorn==20.1.0
+- Python-dotenv==0.21.1
+
+## Работу выполнила Кульбака АА (kvasty)
