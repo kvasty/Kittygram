@@ -123,6 +123,7 @@ jobs:
           context: ./nginx/
           push: true
           tags: nasty105/kittygram_gateway:latest
+
   deploy:
       runs-on: ubuntu-latest
       needs:
